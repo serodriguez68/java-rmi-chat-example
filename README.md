@@ -23,9 +23,9 @@ a `chatClient` instance and registers the instance with the remote server.
 by implementing the `ChatClientInterface`.
 
 # Configuration
-RMI is a bit tricky to setup, so grab a how drink and follow these steps.
+RMI is a bit tricky to setup, so grab a hot drink and follow these steps.
 1. Open a terminal and make sure that you can use `rmiregistry` anywhere.  This implies adding `rmiregistry` to your PATH.
-2. On a terminal, go to the root of this project and then cd into `cd ./out/production/rmi-chat`'.
+2. On a terminal, go to the root of this project and then cd into `cd ./out/production/rmi-chat`.
 3. Start the `rmiregistry` FROM THAT LOCATION. This is done by typing `rmiregistry`.
 4. You need to modify your IDE's run configuration for both the `ChatServerDriver` and the `ClientServerDriver` as follows:
 In VM Options write: `-Djava.rmi.server.codebase=file:/path/to/project/rmi-chat/out/production/rmi-chat`
